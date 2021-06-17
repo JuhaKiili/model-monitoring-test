@@ -1,0 +1,9 @@
+- endpoint:
+    name: wsgi-endpoint
+    description: Dummy endpoint
+    image: python:3.7
+    wsgi: endpoint:endpoint
+    files:
+      - name: model
+        description: Model
+        path: model.pb
