@@ -2,7 +2,7 @@
     name: wsgi-endpoint
     description: Dummy endpoint
     image: python:3.7
-    wsgi: endpoint:endpoint
+    wsgi: endpoint:predict_wsgi
     files:
       - name: model
         description: Model
